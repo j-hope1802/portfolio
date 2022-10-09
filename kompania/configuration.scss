@@ -1,0 +1,38 @@
+$responsives: (
+    "xs": 320px,
+    "sm": 480px,
+    "md": 720px,
+    "lg": 960px,
+    "xl": 1200px,
+);
+@mixin xs {
+    @media (max-width: map-get($responsives, "xs")) {
+        @content;
+    }
+}
+@mixin sm {
+    @media (max-width: map-get($responsives, "sm")) {
+        @content;
+    }
+}
+@mixin md {
+    @media (max-width: map-get($responsives, "md")) {
+        @content;
+    }
+}
+@mixin lg {
+    @media (max-width: map-get($responsives, "lg")) {
+        @content;
+    }
+}
+@mixin xl {
+    @media (max-width: map-get($responsives, "xl")) {
+        @content;
+    }
+}
+
+@mixin breakpoint($bp: 0){
+    @media (min-width: $bp) {
+        @content; 
+    }
+}

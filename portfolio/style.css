@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    
+}
+#container{
+    display: flex;
+}
+#left{
+    
+   position: fixed;
+    padding-top: 100px;
+    width: 24%;
+    height: 100vh;
+    text-align: center;
+
+}
+#right{
+    padding-left: 300px;
+     width: 77%;
+     height: 100vh;
+     display: flex;
+     
+ }
+
+#Some{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-weight: 500;
+}
+p{
+    padding: 4px;
+    display: block;
+    color: gray;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+p:hover{
+
+    background-color: lightgray;
+    color: black;
+    
+}
+img{
+    vertical-align: middle;
+   opacity: 0.8;
+    width: 100%;
+}
+img:hover{
+    opacity: 1;
+}

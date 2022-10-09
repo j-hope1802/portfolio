@@ -1,0 +1,419 @@
+@import 'configuration';
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 100%;
+
+  background-color: #171717;
+    background-size: 100% 100%;
+
+    @include sm {
+        height: auto;
+
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        width: 95%;
+    }
+
+    @include sm {
+        width: 100%;
+
+    }
+
+    .navbar-content {
+        @include sm {
+
+            background-color: #171717;
+        }
+
+        .menu {
+            display: flex;
+
+            @include sm {
+
+                top: 4.1%;
+                right: 15%;
+                position: absolute;
+            }
+        }
+
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        @include sm {
+            flex-direction: column;
+        }
+        .navbar-items {
+            ul {
+                @include sm {
+                    flex-direction: column;
+                    padding-top: 50px;
+                }
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                li {
+                    padding: 10px;
+
+                    a {
+                        font-family: 'DM Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 23px;
+                        color: #FFFFFF;
+                        text-decoration: none;
+
+                        &:hover {
+                            transition: 0.7s ease;
+                            color: greenyellow;
+                        }
+
+                        @include sm {}
+                    }
+                }
+            }
+        }
+
+        .logo {
+            h1 {
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 47px;
+                color: #FFFFFF;
+                margin-left: 50px;
+
+                @include sm {
+                    margin-right: 50px;
+                    color: greenyellow;
+                }
+
+            }
+        }
+    }
+}
+
+.main {
+      background-color: #171717;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 55% 40%;
+    grid-template-rows: 2fr;
+    margin-top: 50px;
+
+    @include sm {
+        grid-template-columns: 100%;
+    }
+
+    .main1 {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 100px;
+
+        .main-center {
+            width: 70%;
+
+            @include sm {
+                text-align: center;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            h1 {
+
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 62px;
+                color: #FFFFFF;
+            }
+
+            p {
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 23px;
+                color: #828282;
+
+                @include sm {
+                    width: 100%;
+                }
+            }
+
+            .main-buttons {
+                margin-top: 35px;
+
+                @include sm {
+                    width: 100%;
+                    flex-direction: column;
+                }
+            }
+
+            .dow {
+                cursor: pointer;
+
+                background-color: #27AE60;
+                padding: 10px 36px 10px 36px;
+                font-family: 'DM Sans';
+                color: #FFFFFF;
+
+            }
+
+            .learn {
+                cursor: pointer;
+                padding: 9px 20px 7px 20px;
+                border: 1px solid white;
+                font-family: 'DM Sans';
+                color: white;
+            }
+
+        }
+    }
+
+    .main2 {
+        @include sm {
+            margin-left: 50px;
+        }
+
+        img {
+            width: 90%;
+        }
+
+
+    }
+
+
+}
+
+.about {
+    margin-top:100px;
+    width: 100%;
+height: 70vh;
+    @include sm {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+
+    h1 {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 62px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    p {
+        @include sm {
+            text-align: center;
+            margin-left: 50px;
+         width:80%;
+          }
+          width:100%;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height:30px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+.krugi{
+    @include sm {
+     grid-template-columns: 100%;
+    margin-left:200px;}
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:21% 20% 20% 20%;
+  justify-content: flex-end;
+  margin-right:100px;
+  .krug1{
+    h2{ margin-left:-10px;
+        text-align: start;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+    h3{
+        margin-left:-30px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+
+    }
+  }
+     
+}
+.what{
+   
+h1{ @include sm {
+    margin-top:100px;}
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+   .kop{
+ display: grid;
+ grid-template-columns: 25% 25% 25%;
+ justify-content: center;
+ margin-top: 50px;
+ @include sm {
+    grid-template-columns: 100%;}
+ img{
+    width:90%;
+    @include sm {
+       width: 50%;
+    display: grid;
+justify-content: space-between;
+margin-left: 130px;
+padding-top: 50px;}
+ }
+   }
+  
+}
+.myskils{
+    width: 100%;
+    h1{margin-top:100px;
+        font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 62px;
+text-align: center;
+color: #FFFFFF;
+
+    }
+}
+    .skil{
+        margin-top:80px;
+background-color:#333333;
+display: flex;
+justify-content: center;
+margin-left: 100px;
+margin-right: 100px;
+ @include sm {
+    flex-direction: column;
+}
+
+
+h2{@include sm {
+    text-align: center;
+    margin-left:70px;
+}
+margin-top: 20px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 94px;
+    text-align: center;
+    color: #4F4F4F;
+    
+}
+p{
+    @include sm {
+        text-align: center;
+        margin-left:100px;
+    }
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+text-align: center;
+color: #27AE60;
+margin-bottom: 20px;
+
+}
+.lo{
+   width: 30%;
+   
+}
+}
+.getit{
+margin-top: 100px;
+   h1{ font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+    color: #FFFFFF;}
+    
+}
+.rr{
+    width: 100%;
+    height: 80vh;
+    input{
+        font-family: 'Poppins';
+    font-style: normal;
+         outline: none;
+         border-top: none;
+         border-left: none;
+         border-right: none;
+         background-color: #171717;
+        padding-right:200px;
+        margin-left: 10px;
+        color: #27AE60;
+        
+    }
+    label{
+       
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+text-align: center;
+color: #4F4F4F;
+    }
+}
+.kyr{
+    @include sm {
+       flex-direction: column;
+       width: 90%;
+       margin-left: 20px;
+
+    }
+    margin-top: 50px;
+  display: flex;
+ justify-content: center;
+}
+.lou{
+margin-left: 500px;
+    
+}
+.bot{
+    color: #FFFFFF;
+}

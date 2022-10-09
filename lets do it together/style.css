@@ -1,0 +1,367 @@
+
+*{
+    margin: 0px;
+}
+.container{
+    width: 100%;
+}
+.top{
+    width: 100%;
+    height: 500px;
+    background-image: url(./image/fon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top a{
+    text-decoration: none;
+    position: absolute;
+height: 26px;
+left: 0%;
+right: 90.21%;
+top: 20px;
+padding-left: 250px;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+
+#home{
+position: absolute;
+height: 20px;
+top: 27px;
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 0.6px;
+text-transform: uppercase;
+left:600px;
+color: #FFFFFF;
+}
+#Categories{
+    position: absolute;
+    height: 20px;
+    top: 27px;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    padding-left: 913px;
+    color: #FFFFFF;
+    
+}
+#About{
+    position: absolute;
+    height: 20px;
+    top: 27px;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    padding-left: 1031px;
+    color: #FFFFFF;
+    
+}
+#Contact{
+    position: absolute;
+    height: 20px;
+    top: 27px;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    padding-left: 1112px;
+    color: #FFFFFF;
+    
+}
+#lets{
+    position: absolute;
+    width: 498px;
+    height: 51px;
+    left: calc(50% - 498px/2);
+    
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    top: 177px;
+   text-align: center;
+    
+}
+#we{
+    position: absolute;
+width: 504px;
+height: 20px;
+left: calc(50% - 504px/2);
+top: 248px;
+
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+
+text-align: center;
+
+color: rgba(255, 255, 255, 0.63);
+}
+#view{
+    position: absolute;
+    width: 105px;
+    height: 20px;
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;    
+    top: 311px;
+    left: 557px;
+    color: #FFFFFF;
+    background-color: #DD783F;
+    padding: 12px 18px 12px 31px;
+}
+.bottom{
+    padding-top: 22px;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 65px;
+    margin-right: 10px;
+    padding-left: 0px;
+}
+.bottom a{
+    text-decoration: none;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #768088;
+    
+}
+.bottom2{
+    width: 100%;
+    height: 1255px;
+}
+.bottom2 p{
+    text-align: center;
+width: 161px;
+height: 27px;
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+margin-left: 557px;
+letter-spacing: 2px;
+color: #2E2E2E;
+}
+h4{
+    margin-left: 50px;
+width: 188px;
+height: 1px;
+margin-top: 16px;
+margin-left: 537px;
+background: #DEDEDE;
+border-radius: 0px;
+
+}
+
+
+.img {
+margin-left: 50px;
+    display: flex;
+    height: 50vh;
+}
+.img1{
+    width:10000px;
+    height: 280px;
+    background-image: url(./image/IMAGE\ \(23\).png);
+    background-repeat: no-repeat;
+margin-left: 150px;
+margin-right: 20px;
+}
+.img1 h1 {
+  
+height: 30px;
+margin-top: 157px;
+margin-left: 20px;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 30px;
+
+
+color: #FFFFFF;
+}
+.img1 h4{
+   
+width: 300px;
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+
+color: rgba(255, 255, 255, 0.7);
+    margin-top: 6px;
+    margin-left: 20px;
+    }
+.img1 img{
+    margin-left: 20px;
+}
+.img2 img{
+    margin-left: 20px;
+}
+.img1 h5{
+    width: 300px;
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+
+color: rgba(255, 255, 255, 0.7);
+
+}
+.img2 h6{
+    width: 300px;
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+
+color: rgba(255, 255, 255, 0.7);
+margin-left: 20px;
+}
+.img2{
+    margin-right: 150px;
+    width:10000px;
+    height: 280px;
+    background-image: url(./image/IMAGE\ \(24\).png);
+    background-repeat: no-repeat;
+}
+.img2 h2{
+      
+height: 30px;
+margin-top: 157px;
+margin-left: 20px;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 30px;
+
+
+color: #FFFFFF;
+}
+.img h5{
+    width: 300px;
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+
+color: rgba(255, 255, 255, 0.7);
+    margin-top: 6px;
+    margin-left: 20px;
+}
+.projects p{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #7A7A7A;
+    background-color: white;
+    padding-bottom:35px ;
+    border-bottom: 1px solid rgba(239, 239, 239, 1);
+
+ }
+ .slaid3 {
+    margin-top:50px;
+
+background-color: rgba(247, 247, 247, 1);
+   
+ }
+ .gg{
+    position: absolute;
+   height: 2px;
+   left: 47%;
+   right: 47%;
+   background: rgba(0, 0, 0, 0.09);
+   border-radius: 0px;
+   }
+
+   .recent h2{
+   padding-bottom:10px ;
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+letter-spacing: 2px;
+color: #2E2E2E;
+
+ }
+ .projects{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ }
+ .projects h2{
+     background-color: white;  
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #101315;
+     }
+.projects .img{
+      width: 10px;
+height: 26px;
+border-radius: 60px;
+     }
+   
+    
+     .projects h3{
+        display: flex;
+        flex-direction: row;
+        font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 35px;
+color: #999999;
+background: #FCFCFC;
+     }
+     .im1 h3{
+        display: flex;
+        justify-content: end;
+     }
